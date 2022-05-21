@@ -1,0 +1,87 @@
+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
+Token
+Url: https://github.com/Quasia12/cazgi-IBM-Watson-NLU-Project.git
+IBM
+Name                                       Region     Account owner                              Account ID                         Status   
+sbarksdale.bridgespointeinc.nc@gmail.com   us-south   sbarksdale.bridgespointeinc.nc@gmail.com   757bae48d57c4dbf9f5182584a6c7109   active
+
+Targeted account Shaquasia Barksdale's Account (757bae48d57c4dbf9f5182584a6c7109)
+
+                      
+API endpoint:      https://cloud.ibm.com   
+Region:            us-south   
+User:              sbarksdale.bridgespointeinc.nc@gmail.com   
+Account:           Shaquasia Barksdale's Account (757bae48d57c4dbf9f5182584a6c7109)   
+Resource group:    No resource group targeted, use 'ibmcloud target -g RESOURCE_GROUP'   
+CF API endpoint:      
+Org:                  
+Space:                
+
+theia@theiadocker-quasia1288:/home/project$ ibmcloud login -u sbarksdale.bridgespointeinc.nc@gmail.com
+API endpoint: https://cloud.ibm.com
+Region: us-south
+
+Password> 
+Authenticating...
+OK
+
+Targeted account Shaquasia Barksdale's Account (757bae48d57c4dbf9f5182584a6c7109)
+
+                      
+API endpoint:      https://cloud.ibm.com   
+Region:            us-south   
+User:              sbarksdale.bridgespointeinc.nc@gmail.com   
+Account:           Shaquasia Barksdale's Account (757bae48d57c4dbf9f5182584a6c7109)   
+Resource group:    No resource group targeted, use 'ibmcloud target -g RESOURCE_GROUP'   
+CF API endpoint:      
+Org:                  
+Space:                
+
+theia@theiadocker-quasia1288:/home/project$ ibmcloud account orgs
+Getting orgs in region 'us-south' as sbarksdale.bridgespointeinc.nc@gmail.com...
+Retrieving current account...
+OK
+
+Name                                       Region     Account owner                              Account ID                         Status   
+sbarksdale.bridgespointeinc.nc@gmail.com   us-south   sbarksdale.bridgespointeinc.nc@gmail.com   757bae48d57c4dbf9f5182584a6c7109   active   
+
+theia@theiadocker-quasia1288:/home/project$ 
+
+theia@theiadocker-quasia1288:/home/project$ ibmcloud target --cf-api https://api.REGION.cf.cloud.ibm.com -r us-south -o sbarksdale.bridgespointeinc.nc@gmail.com
+Switched to region us-south
+
+FAILED
+Could not get Cloud Foundry instances:
+Cloud Foundry instance(API endpoint: https://api.REGION.cf.cloud.ibm.com) was not found as a public instance in region 'us-south'.
+
+Cloud Foundry
+Cloud Foundry App
+Estimate costs
+Location: Dallas
+Plan: Default
+Runtime: Node.js
+App name: Final Project1288
+Host name: Final-Project1288
+Domain: us-south.cf.appdomain.cloud
+Org: sbarksdale.bridgespointeinc.nc@gmail.com
+Space: dev
+
+URL: https://final-project1288.us-south.cf.appdomain.cloud/
+
+manifest.yml
+---
+applications:
+- path: .
+  name: Quasia12-sentiment-analyzer #Final-Project1288 (Changed name)
+  memory: 256M
+  instances: 1
+  random-route: true
+
+
+URL Route to final Project:
+
+homeprojectcazgi-ibm-watson-nlu-project-anxious-hartebeest-ue.mybluemix.net
+
+URL To First final Project in lesson: https://quasia1288-8080.theiadocker-3-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/
+
+Shareable link: https://www.coursera.org/learn/node-js/peer/GCHm5/submit-your-work-and-review-your-peers/review/j6oxtdhYEeyIGhJGRh-teQ
